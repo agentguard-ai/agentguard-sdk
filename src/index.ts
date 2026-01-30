@@ -98,5 +98,24 @@ export {
 // Configuration
 export { Configuration, DEFAULT_CONFIG } from './config/Configuration';
 
+// Guardrails
+export {
+  Guardrail,
+  GuardrailResult,
+  GuardrailConfig,
+  GuardrailMetadata,
+  GuardrailResultData,
+  GuardrailEngine,
+  GuardrailEngineResult,
+  GuardrailEngineOptions,
+  GuardrailExecutionResult,
+  PIIDetectionGuardrail,
+  PIIDetectionConfig,
+  ContentModerationGuardrail,
+  ContentModerationConfig,
+  PromptInjectionGuardrail,
+  PromptInjectionConfig
+} from './guardrails';
+
 // Version
 export const VERSION = '0.1.0';
